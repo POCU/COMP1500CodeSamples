@@ -35,7 +35,6 @@ namespace PrimitiveTypesToBinary
 
             Console.WriteLine(char1 + " -> " + Convert.ToString(char1, 2));
             Console.WriteLine(char2 + " -> " + Convert.ToString(char2, 2));
-
         }
     }
 }
