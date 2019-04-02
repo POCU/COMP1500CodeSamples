@@ -6,9 +6,6 @@ namespace PrimitiveTypesToBinary
     {
         static void Main(string[] args)
         {
-            sbyte sbyte1 = sbyte.MaxValue;
-            sbyte sbyte2 = sbyte.MinValue;
-
             byte byte1 = byte.MaxValue;
             byte byte2 = byte.MinValue;
 
@@ -20,9 +17,6 @@ namespace PrimitiveTypesToBinary
 
             char char1 = 'x';
             char char2 = '$';
-
-            Console.WriteLine(sbyte1 + " -> " + Convert.ToString(sbyte1, 2));
-            Console.WriteLine(sbyte2 + " -> " + Convert.ToString(sbyte2, 2));
 
             Console.WriteLine(byte1 + " -> " + Convert.ToString(byte1, 2));
             Console.WriteLine(byte2 + " -> " + Convert.ToString(byte2, 2));
