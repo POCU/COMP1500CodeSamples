@@ -36,7 +36,7 @@ namespace Calculator
 
             Console.WriteLine("result7: " + result7);
 
-            int result8 = num2 / num1;
+            float result8 = num2 / num1;
             float result9 = num2 / (float)num1;
 
             Console.WriteLine("result8: " + result8);
@@ -55,13 +55,10 @@ namespace Calculator
             Console.WriteLine("result13: " + result13);
 
             float num5 = 123.452f;
-            int num6 = 1000;
 
             float result14 = num5 % num1;
-            float result15 = num6 % num5;
 
             Console.WriteLine("result14: " + result14);
-            Console.WriteLine("result15: " + result15);
         }
     }
 }
