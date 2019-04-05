@@ -38,7 +38,6 @@ namespace TypeConversion
             int int2 = -1;
             uint int2ToUInt = (uint)int2;
 
-            Console.WriteLine("int2: " + int2);
             Console.WriteLine("int2ToUInt: " + int2ToUInt);
 
         }

@@ -16,23 +16,17 @@ namespace BitFlag
 
             Console.WriteLine("bitFlags: " + Convert.ToString(bitFlags, 2).PadLeft(BIT_FLAG_SIZE, '0'));
 
-            byte mask2 = 1 << 7;
-
-            bitFlags |= mask2;
-
-            Console.WriteLine("bitFlags: " + Convert.ToString(bitFlags, 2).PadLeft(BIT_FLAG_SIZE, '0'));
-
-            bitFlags = (byte)~bitFlags;
-
-            Console.WriteLine("bitFlags: " + Convert.ToString(bitFlags, 2).PadLeft(BIT_FLAG_SIZE, '0'));
-
             byte mask3 = (1 << 3) | (1 << 5);
 
-            bitFlags &= mask3;
+            bitFlags |= mask3;
 
             Console.WriteLine("bitFlags: " + Convert.ToString(bitFlags, 2).PadLeft(BIT_FLAG_SIZE, '0'));
 
-            bitFlags ^= bitFlags;
+            bitFlags &= (byte)~mask1;
+
+            Console.WriteLine("bitFlags: " + Convert.ToString(bitFlags, 2).PadLeft(BIT_FLAG_SIZE, '0'));
+
+            bitFlags &= 0;
 
             Console.WriteLine("bitFlags: " + Convert.ToString(bitFlags, 2).PadLeft(BIT_FLAG_SIZE, '0'));
 
