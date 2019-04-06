@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertStudentInformation2",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicalExpressions", "04\LogicalExpressions\LogicalExpressions.csproj", "{A9886A91-1140-4DBE-A885-A06FE242FA62}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderOfExpressionEvaluation", "04\OrderOfExpressionEvaluation\OrderOfExpressionEvaluation.csproj", "{2BFAE356-8C7F-4438-8F16-CDBF00A39CB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -101,6 +103,10 @@ Global
 		{A9886A91-1140-4DBE-A885-A06FE242FA62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9886A91-1140-4DBE-A885-A06FE242FA62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9886A91-1140-4DBE-A885-A06FE242FA62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BFAE356-8C7F-4438-8F16-CDBF00A39CB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BFAE356-8C7F-4438-8F16-CDBF00A39CB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BFAE356-8C7F-4438-8F16-CDBF00A39CB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BFAE356-8C7F-4438-8F16-CDBF00A39CB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -120,6 +126,7 @@ Global
 		{52C6D987-3C1A-45D2-AC22-2B934FD8F458} = {BFC911D9-03DA-47F2-8660-448DD7A9A4A4}
 		{85B41686-F643-4DBB-9DEA-1989CF9B5B06} = {C1245CF3-0070-4EA3-B20E-80146468B9A2}
 		{A9886A91-1140-4DBE-A885-A06FE242FA62} = {C1245CF3-0070-4EA3-B20E-80146468B9A2}
+		{2BFAE356-8C7F-4438-8F16-CDBF00A39CB9} = {C1245CF3-0070-4EA3-B20E-80146468B9A2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {96723904-3ECA-4291-9A14-EEC341AC2BE4}
