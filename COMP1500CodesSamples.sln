@@ -37,6 +37,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04", "04", "{C1245CF3-0070-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertStudentInformation2", "04\InsertStudentInformation2\InsertStudentInformation2.csproj", "{85B41686-F643-4DBB-9DEA-1989CF9B5B06}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicalExpressions", "04\LogicalExpressions\LogicalExpressions.csproj", "{A9886A91-1140-4DBE-A885-A06FE242FA62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,6 +97,10 @@ Global
 		{85B41686-F643-4DBB-9DEA-1989CF9B5B06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85B41686-F643-4DBB-9DEA-1989CF9B5B06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85B41686-F643-4DBB-9DEA-1989CF9B5B06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9886A91-1140-4DBE-A885-A06FE242FA62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9886A91-1140-4DBE-A885-A06FE242FA62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9886A91-1140-4DBE-A885-A06FE242FA62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9886A91-1140-4DBE-A885-A06FE242FA62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -113,6 +119,7 @@ Global
 		{F0C31ECE-DD83-4780-8108-237D3E689870} = {BFC911D9-03DA-47F2-8660-448DD7A9A4A4}
 		{52C6D987-3C1A-45D2-AC22-2B934FD8F458} = {BFC911D9-03DA-47F2-8660-448DD7A9A4A4}
 		{85B41686-F643-4DBB-9DEA-1989CF9B5B06} = {C1245CF3-0070-4EA3-B20E-80146468B9A2}
+		{A9886A91-1140-4DBE-A885-A06FE242FA62} = {C1245CF3-0070-4EA3-B20E-80146468B9A2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {96723904-3ECA-4291-9A14-EEC341AC2BE4}
