@@ -47,18 +47,6 @@ namespace Calculator
 
             Console.WriteLine("result10: " + result10);
             Console.WriteLine("result11: " + result11);
-
-            int result12 = -num1 % num2;
-            int result13 = num1 % -num2;
-
-            Console.WriteLine("result12: " + result12);
-            Console.WriteLine("result13: " + result13);
-
-            float num5 = 123.452f;
-
-            float result14 = num5 % num1;
-
-            Console.WriteLine("result14: " + result14);
         }
     }
 }
