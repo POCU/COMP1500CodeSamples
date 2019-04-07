@@ -32,7 +32,7 @@ namespace Calculator
             Console.WriteLine("result5: " + result5);
             Console.WriteLine("result6: " + result6);
 
-            float result7 = num1 * num4;
+            float result7 = num2 * num4;
 
             Console.WriteLine("result7: " + result7);
 
