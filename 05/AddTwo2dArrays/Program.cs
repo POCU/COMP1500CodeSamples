@@ -9,7 +9,7 @@ namespace AddTwo2dArrays
             const int rowCount = 4;
             const int columnCount = 5;
 
-            int[,] table1 = new int[rowCount, columnCount]
+            int[,] array1 = new int[rowCount, columnCount]
             {
                 { 2, 3, 4, 10, 5 },
                 { 1, 11, -4, 4, 6 },
@@ -17,7 +17,7 @@ namespace AddTwo2dArrays
                 { 7, 17, 2, -4, 2 }
             };
 
-            int[,] table2 = new int[rowCount, columnCount]
+            int[,] array2 = new int[rowCount, columnCount]
             {
                 { -2, 7, 10, -10, 1 },
                 { 2, 7, -6, -13, 6 },
@@ -25,13 +25,13 @@ namespace AddTwo2dArrays
                 { 7, 8, 7, -9, 1 }
             };
 
-            int[,] sum = new int[rowCount, columnCount];
+            int[,] sumArray = new int[rowCount, columnCount];
 
             for (int i = 0; i < rowCount; i++)
             {
                 for (int j = 0; j < columnCount; j++)
                 {
-                    sum[i, j] = table1[i, j] + table2[i, j];
+                    sumArray[i, j] = array1[i, j] + array2[i, j];
                 }
             }
 
@@ -41,7 +41,7 @@ namespace AddTwo2dArrays
             {
                 for (int j = 0; j < columnCount; j++)
                 {
-                    Console.Write("{0,10} ", sum[i, j]);
+                    Console.Write("{0,10} ", sumArray[i, j]);
                 }
 
                 Console.WriteLine();

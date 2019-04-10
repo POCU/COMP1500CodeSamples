@@ -6,8 +6,6 @@ namespace CalculatorWithSwitchStatement
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Get num1:");
-
             Console.Write("num1: ");
             string num1String = Console.ReadLine();
             int num1 = int.Parse(num1String);

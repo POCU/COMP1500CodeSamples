@@ -8,7 +8,7 @@ namespace InfiniteWhileLoop
         {
             while (true)
             {
-                Console.Write("input: ");
+                Console.Write("Input Number: ");
                 string inputString = Console.ReadLine();
                 int input = int.Parse(inputString);
 
