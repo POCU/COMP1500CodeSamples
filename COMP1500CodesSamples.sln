@@ -43,15 +43,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderOfExpressionEvaluation
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05", "05", "{0D9CB036-ACA6-4911-8E9F-2D0CBF08721A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorWithSwitchStatement", "05\CalculatorWithSwitchStatement\CalculatorWithSwitchStatement.csproj", "{C4F4DC83-A1F8-4BEC-9F27-9531C0C84DBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorWithSwitchStatement", "05\CalculatorWithSwitchStatement\CalculatorWithSwitchStatement.csproj", "{C4F4DC83-A1F8-4BEC-9F27-9531C0C84DBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertStudentInformation3", "05\InsertStudentInformation3\InsertStudentInformation3.csproj", "{600E0D56-264C-4F0F-8E17-6457C0FE4E4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsertStudentInformation3", "05\InsertStudentInformation3\InsertStudentInformation3.csproj", "{600E0D56-264C-4F0F-8E17-6457C0FE4E4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum", "05\Sum\Sum.csproj", "{BA350D0B-832D-4BFA-A32B-96879D7402BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sum", "05\Sum\Sum.csproj", "{BA350D0B-832D-4BFA-A32B-96879D7402BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfiniteWhileLoop", "05\InfiniteWhileLoop\InfiniteWhileLoop.csproj", "{A8DFB64C-7B08-4223-B2E1-780F69CC6817}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfiniteWhileLoop", "05\InfiniteWhileLoop\InfiniteWhileLoop.csproj", "{A8DFB64C-7B08-4223-B2E1-780F69CC6817}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddTwo2dArrays", "05\AddTwo2dArrays\AddTwo2dArrays.csproj", "{B5886FA2-3A36-41F6-9757-6C3EDC72EC16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddTwo2dArrays", "05\AddTwo2dArrays\AddTwo2dArrays.csproj", "{B5886FA2-3A36-41F6-9757-6C3EDC72EC16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06", "06", "{773EA059-A4E9-4C60-B323-5F412F1D7976}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Functions", "06\Functions\Functions.csproj", "{26BF50FC-FFEA-4FF6-8907-04DE56649526}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -139,6 +143,10 @@ Global
 		{B5886FA2-3A36-41F6-9757-6C3EDC72EC16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5886FA2-3A36-41F6-9757-6C3EDC72EC16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5886FA2-3A36-41F6-9757-6C3EDC72EC16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26BF50FC-FFEA-4FF6-8907-04DE56649526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26BF50FC-FFEA-4FF6-8907-04DE56649526}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26BF50FC-FFEA-4FF6-8907-04DE56649526}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26BF50FC-FFEA-4FF6-8907-04DE56649526}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -164,6 +172,7 @@ Global
 		{BA350D0B-832D-4BFA-A32B-96879D7402BD} = {0D9CB036-ACA6-4911-8E9F-2D0CBF08721A}
 		{A8DFB64C-7B08-4223-B2E1-780F69CC6817} = {0D9CB036-ACA6-4911-8E9F-2D0CBF08721A}
 		{B5886FA2-3A36-41F6-9757-6C3EDC72EC16} = {0D9CB036-ACA6-4911-8E9F-2D0CBF08721A}
+		{26BF50FC-FFEA-4FF6-8907-04DE56649526} = {773EA059-A4E9-4C60-B323-5F412F1D7976}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {96723904-3ECA-4291-9A14-EEC341AC2BE4}
