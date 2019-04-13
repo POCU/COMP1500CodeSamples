@@ -36,11 +36,6 @@ namespace Scope
                 sum += numbers[i];
             }
 
-            for (int i = 0; i < numbers.Length; i++)
-            {
-                numbers[i] = 0;
-            }
-
             return sum;
         }
     }
