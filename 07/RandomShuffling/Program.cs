@@ -22,7 +22,7 @@ namespace RandomShuffling
                 numbers[i] = temp;
             }
 
-            Console.WriteLine("Before shuffling:");
+            Console.WriteLine("After shuffling:");
             Console.WriteLine($"[{string.Join(", ", numbers)}]");
         }
     }
