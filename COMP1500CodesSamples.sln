@@ -55,15 +55,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddTwo2dArrays", "05\AddTwo
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06", "06", "{773EA059-A4E9-4C60-B323-5F412F1D7976}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Functions", "06\Functions\Functions.csproj", "{26BF50FC-FFEA-4FF6-8907-04DE56649526}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Functions", "06\Functions\Functions.csproj", "{26BF50FC-FFEA-4FF6-8907-04DE56649526}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scope", "06\Scope\Scope.csproj", "{6F2D0348-7E7E-4147-8E5F-EC5ECC84FF3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scope", "06\Scope\Scope.csproj", "{6F2D0348-7E7E-4147-8E5F-EC5ECC84FF3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallByValueAndCallByReference", "06\CallByValueAndCallByReference\CallByValueAndCallByReference.csproj", "{FA9AF6C2-9313-4C20-A60C-547DF0511F29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CallByValueAndCallByReference", "06\CallByValueAndCallByReference\CallByValueAndCallByReference.csproj", "{FA9AF6C2-9313-4C20-A60C-547DF0511F29}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InputValidationUsingAssert", "06\InputValidationUsingAssert\InputValidationUsingAssert.csproj", "{94E98592-9374-4D50-9250-EDA14BA21D77}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorUsingEnum", "06\CalculatorUsingEnum\CalculatorUsingEnum.csproj", "{D5B1C45C-D85B-4952-AF22-D29F3C380DE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07", "07", "{C7DF3224-CF8A-444C-AEB4-C7970A821411}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveFactorial", "07\RecursiveFactorial\RecursiveFactorial.csproj", "{BFA3851F-578C-44EE-AC3C-11B8123EDEEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomShuffling", "RandomShuffling\RandomShuffling.csproj", "{FFA300C2-5E3A-4F80-AFA9-6D1C8E6DC51D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +177,14 @@ Global
 		{D5B1C45C-D85B-4952-AF22-D29F3C380DE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5B1C45C-D85B-4952-AF22-D29F3C380DE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5B1C45C-D85B-4952-AF22-D29F3C380DE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFA3851F-578C-44EE-AC3C-11B8123EDEEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFA3851F-578C-44EE-AC3C-11B8123EDEEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFA3851F-578C-44EE-AC3C-11B8123EDEEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFA3851F-578C-44EE-AC3C-11B8123EDEEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFA300C2-5E3A-4F80-AFA9-6D1C8E6DC51D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFA300C2-5E3A-4F80-AFA9-6D1C8E6DC51D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFA300C2-5E3A-4F80-AFA9-6D1C8E6DC51D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFA300C2-5E3A-4F80-AFA9-6D1C8E6DC51D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -201,6 +215,8 @@ Global
 		{FA9AF6C2-9313-4C20-A60C-547DF0511F29} = {773EA059-A4E9-4C60-B323-5F412F1D7976}
 		{94E98592-9374-4D50-9250-EDA14BA21D77} = {773EA059-A4E9-4C60-B323-5F412F1D7976}
 		{D5B1C45C-D85B-4952-AF22-D29F3C380DE2} = {773EA059-A4E9-4C60-B323-5F412F1D7976}
+		{BFA3851F-578C-44EE-AC3C-11B8123EDEEE} = {C7DF3224-CF8A-444C-AEB4-C7970A821411}
+		{FFA300C2-5E3A-4F80-AFA9-6D1C8E6DC51D} = {C7DF3224-CF8A-444C-AEB4-C7970A821411}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {96723904-3ECA-4291-9A14-EEC341AC2BE4}
