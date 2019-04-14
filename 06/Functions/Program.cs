@@ -57,8 +57,8 @@ namespace Functions
                 return 1;
             }
 
-            int product = x;
-            for (int i = 1; i < y; i++)
+            int product = 1;
+            for (int i = 0; i < y; i++)
             {
                 product *= x;
             }
