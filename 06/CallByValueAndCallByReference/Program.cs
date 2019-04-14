@@ -25,7 +25,7 @@ namespace CallByValueAndCallByReference
             }
         }
 
-        static void IncrementByReference(ref int num, int increment, int incrementcount)
+        static void IncrementByReference(ref int num, int increment, int incrementCount)
         {
             for (int i = 0; i < incrementCount; i++)
             {

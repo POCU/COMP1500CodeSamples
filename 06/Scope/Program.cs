@@ -11,8 +11,6 @@ namespace Scope
             int[] numbers = new int[] { 1, -3, 4, -10, 4, 2, 9, 15 };
             int average = GetAverage(numbers);
 
-            Console.WriteLine($"numbers: {string.Join(", ", numbers)}");
-
             if (average > THRESHOLD)
             {
                 //int average = 0; // Compile error!
