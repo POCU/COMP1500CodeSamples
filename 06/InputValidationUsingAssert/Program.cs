@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 
-namespace InputValidation
+namespace InputValidationUsingAssert
 {
     class Program
     {
