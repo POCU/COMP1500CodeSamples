@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Diagnostics;
 
-namespace CalculatorWithEnum
+namespace CalculatorUsingEnum
 {
     class Program
     {

@@ -6,21 +6,20 @@ namespace Scope
     {
         static void Main(string[] args)
         {
-            const int THRESHOLD = 10;
-
             int[] numbers = new int[] { 1, -3, 4, -10, 4, 2, 9, 15 };
             double average = GetAverage(numbers);
 
-            if (average > THRESHOLD)
+            Console.WriteLine($"average: {average}");
+
             {
                 //int average = 0; // Compile error!
-                string message = "Message in the if statement!";
+                string message = "Message in the first child scope!";
                 Console.WriteLine(message);
             }
-            else
+            
             {
                 //int average = 0; // Compile error!
-                string message = "Message in the else statement!";
+                string message = "Message in the second child scope!";
                 Console.WriteLine(message);
             }
         }

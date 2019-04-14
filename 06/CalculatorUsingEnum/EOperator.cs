@@ -1,4 +1,4 @@
-﻿namespace CalculatorWithEnum
+﻿namespace CalculatorUsingEnum
 {
     enum EOperator
     {
