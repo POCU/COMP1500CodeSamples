@@ -9,7 +9,8 @@ namespace OutParameterModifier
             Console.WriteLine("Enter \"true\" or \"false\":");
             string booleanString = Console.ReadLine();
 
-            if (bool.TryParse(booleanString, out bool b))
+            bool b;
+            if (bool.TryParse(booleanString, out b))
             {
                 Console.WriteLine($"Successfully parsed: {b}");
             }
@@ -21,7 +22,8 @@ namespace OutParameterModifier
             Console.WriteLine("Enter an integer:");
             string intString = Console.ReadLine();
 
-            if (int.TryParse(intString, out int number))
+            int number;
+            if (int.TryParse(intString, out number))
             {
                 Console.WriteLine($"Successfully parsed: {number}");
             }
@@ -32,7 +34,8 @@ namespace OutParameterModifier
 
             int someNumber = 5;
 
-            if (TryGetIntegerGreaterThan(someNumber, out int randomNumber))
+            int randomNumber;
+            if (TryGetIntegerGreaterThan(someNumber, out randomNumber))
             {
                 Console.WriteLine($"Great! {randomNumber} > {someNumber}");
             }
