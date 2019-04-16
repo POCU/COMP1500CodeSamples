@@ -1,0 +1,5 @@
+﻿[POCU Web Message]
+Monday 2019-04-15 13:21:54.456
+student1234@fakeemail.com     
+Course                COMP1500
+Term                    201905
