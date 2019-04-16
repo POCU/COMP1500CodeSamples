@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FunctionOverloadingVsDefaultParameters
+namespace FunctionOverloading
 {
     class Program
     {
@@ -10,12 +10,6 @@ namespace FunctionOverloadingVsDefaultParameters
             Foo(10);
             Foo("POCU");
             Foo("POCU", "COMP1500", "Intro to programming!");
-
-            Console.WriteLine("--------------------------------------");
-
-            Bar("POCU");
-            Bar("POCU", "COMP1500");
-            Bar("POCU", "COMP1500", "Intro to programming!");
         }
 
         static void Foo()
@@ -41,16 +35,6 @@ namespace FunctionOverloadingVsDefaultParameters
         static void Foo(string s1, string s2, string s3)
         {
             Console.WriteLine($"Foo with {typeof(string).Name}: {s1}, {typeof(string).Name}: {s2} and {typeof(string).Name}: {s3} as an argument.");
-        }
-
-        //static void Foo(string s, string s2 = "", string s3 = "")
-        //{
-        //    Console.WriteLine($"Foo with {typeof(string).Name}: {s}, {typeof(string).Name}: {s2} and {typeof(string).Name}: {s3} as an argument.");
-        //}
-
-        static void Bar(string s, string s2 = "", string s3 = "")
-        {
-            Console.WriteLine($"Bar with {typeof(string).Name}: {s}, {typeof(string).Name}: {s2} and {typeof(string).Name}: {s3} as an argument.");
         }
     }
 }

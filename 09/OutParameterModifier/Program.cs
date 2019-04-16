@@ -32,9 +32,9 @@ namespace OutParameterModifier
 
             int someNumber = 5;
 
-            if (TryGetIntegerGreaterThan(someNumber, out int output))
+            if (TryGetIntegerGreaterThan(someNumber, out int randomNumber))
             {
-                Console.WriteLine($"Great! {output} > {someNumber}");
+                Console.WriteLine($"Great! {randomNumber} > {someNumber}");
             }
             else
             {

@@ -9,17 +9,21 @@ namespace ParseTextMessage
         {
             string textMessage = File.ReadAllText(@"TextMessage.txt");
 
+            // [ "[POCU Web Message]", "Monday 2019-04-15 13:21:54.456", "student1234@fakeemail.com     ", "Course                COMP1500", "Term                    201905" ]
             string[] lines = textMessage.Split('\n');
 
+            // [ "Monday", "2019-04-15", "13:21:54.456" ]
             string[] dateTimeString = lines[1].Split(' ');
             string nameOfDay = dateTimeString[0];
 
+            // [ "2019", "04", "15" ]
             string[] date = dateTimeString[1].Split('-');
 
             int year = int.Parse(date[0]);
             int month = int.Parse(date[1]);
             int day = int.Parse(date[0]);
 
+            // [ "13", "21", "54.456" ]
             string[] time = dateTimeString[2].Split(':');
 
             int hours = int.Parse(time[0]);
