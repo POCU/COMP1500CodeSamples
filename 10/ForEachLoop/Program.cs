@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace ForEachLoop
 {
@@ -6,7 +7,41 @@ namespace ForEachLoop
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            List<int> list = new List<int>();
+
+            Random random = new Random();
+
+            for (int i = 0; i < 20; i++)
+            {
+                int number = random.Next(0, 10);
+                list.Add(number);
+            }
+
+            int sum = 0;
+            
+            foreach(int i in list)
+            {
+                sum += i;
+            }
+
+            Console.WriteLine($"Sum: {sum}");
+
+            Dictionary<string, int> dictionary = new Dictionary<string, int>
+            {
+                { "key1",  1 },
+                { "key2",  2 },
+                { "key3",  3 },
+                { "key4",  4 },
+                { "key5",  5 },
+                { "key6",  6 },
+            };
+
+            Console.WriteLine("----------------------------------");
+
+            foreach (KeyValuePair<string, int> entry in dictionary)
+            {
+                Console.WriteLine($"{entry.Key}: {entry.Value}");
+            }
         }
     }
 }
