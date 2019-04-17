@@ -43,7 +43,7 @@ namespace ListExample
             int sum = 0;
             for (int i = 0; i < list.Count; i++)
             {
-                sum += list[0];
+                sum += list[i];
             }
 
             Console.WriteLine($"Sum: {sum}");

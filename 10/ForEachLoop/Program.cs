@@ -26,6 +26,8 @@ namespace ForEachLoop
 
             Console.WriteLine($"Sum: {sum}");
 
+            Console.WriteLine("----------------------------------");
+
             Dictionary<string, int> dictionary = new Dictionary<string, int>
             {
                 { "key1",  1 },
@@ -35,8 +37,6 @@ namespace ForEachLoop
                 { "key5",  5 },
                 { "key6",  6 },
             };
-
-            Console.WriteLine("----------------------------------");
 
             foreach (KeyValuePair<string, int> entry in dictionary)
             {
