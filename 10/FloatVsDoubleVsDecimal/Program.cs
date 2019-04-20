@@ -10,13 +10,13 @@ namespace FloatVsDoubleVsDecimal
 
             float averageFloat = GetAverage(floats);
 
-            Console.WriteLine($"Average in float: {averageFloat:R}");
+            Console.WriteLine($"Average in float: {averageFloat:G9}");
 
             double[] doubles = new double[] { 2.342, 9.326, 3.445, 5.713, 2.458, 3.689, 10.121, 4.786, 6.664, 18.341, 0.123 };
 
             double averageDouble = GetAverage(doubles);
 
-            Console.WriteLine($"Average in double: {averageDouble:R}");
+            Console.WriteLine($"Average in double: {averageDouble:G17}");
 
             decimal[] decimals = new decimal[] { 2.342m, 9.326m, 3.445m, 5.713m, 2.458m, 3.689m, 10.121m, 4.786m, 6.664m, 18.341m, 0.123m };
 
