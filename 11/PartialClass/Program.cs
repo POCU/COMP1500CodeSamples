@@ -6,7 +6,13 @@ namespace PartialClass
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Robot robot = new Robot("Death Robot");
+
+            Console.WriteLine(robot.Name);
+
+            robot.ShootLaserBeam();
+            robot.ShootMissiles();
+            robot.Nuke();
         }
     }
 }
