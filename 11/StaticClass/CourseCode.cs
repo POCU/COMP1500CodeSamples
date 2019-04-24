@@ -4,7 +4,7 @@ namespace StaticClass
 {
     public class CourseCode
     {
-        public CourseCode(ESubject subject, byte number)
+        public CourseCode(ESubject subject, ushort number)
         {
             Subject = subject;
             Number = number;
@@ -12,7 +12,7 @@ namespace StaticClass
 
         public ESubject Subject { get; private set; }
 
-        public byte Number { get; private set; }
+        public ushort Number { get; private set; }
 
         public static CourseCode Parse(string courseCodeString)
         {
@@ -22,7 +22,7 @@ namespace StaticClass
 
             string numberString = courseCodeString.Substring(5);
 
-            byte number = byte.Parse(numberString);
+            ushort number = ushort.Parse(numberString);
 
             return new CourseCode(subject, number);
         }
@@ -45,8 +45,8 @@ namespace StaticClass
 
             string numberString = courseCodeString.Substring(5);
 
-            byte number;
-            if (!byte.TryParse(numberString, out number))
+            ushort number;
+            if (!ushort.TryParse(numberString, out number))
             {
                 return false;
             }

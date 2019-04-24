@@ -4,22 +4,22 @@ namespace StaticClass
 {
     public static class UnitConverter
     {
-        public static double ToInches(double centimeters)
+        public static double GetInchesFromCentimeters(double centimeters)
         {
             return centimeters / 0.393701;
         }
 
-        public static double ToCentimeters(double inches)
+        public static double GetCentimetersFromInches(double inches)
         {
             return inches * 0.393701;
         }
 
-        public static double ToMeters(double centimeters)
+        public static double GetMetersFromCentimeters(double centimeters)
         {
             return centimeters / 100;
         }
 
-        public static double ToFeet(double inches)
+        public static double GetFeetFromInches(double inches)
         {
             return inches / 12;
         }
