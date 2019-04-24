@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace StaticClass
+namespace StaticMethod
 {
     public class CourseCode
     {
@@ -20,7 +20,7 @@ namespace StaticClass
 
             ESubject subject = Enum.Parse<ESubject>(subjectString);
 
-            string numberString = courseCodeString.Substring(5);
+            string numberString = courseCodeString.Substring(4);
 
             ushort number = ushort.Parse(numberString);
 
@@ -43,7 +43,7 @@ namespace StaticClass
                 return false;
             }
 
-            string numberString = courseCodeString.Substring(5);
+            string numberString = courseCodeString.Substring(4);
 
             ushort number;
             if (!ushort.TryParse(numberString, out number))

@@ -1,4 +1,4 @@
-﻿namespace StaticClass
+﻿namespace StaticMethod
 {
     public enum ESubject
     {

@@ -6,12 +6,12 @@ namespace StaticClass
     {
         public static double GetInchesFromCentimeters(double centimeters)
         {
-            return centimeters / 0.393701;
+            return centimeters * 0.393701;
         }
 
         public static double GetCentimetersFromInches(double inches)
         {
-            return inches * 0.393701;
+            return inches / 0.393701;
         }
 
         public static double GetMetersFromCentimeters(double centimeters)
