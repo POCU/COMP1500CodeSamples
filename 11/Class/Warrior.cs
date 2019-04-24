@@ -8,16 +8,13 @@ namespace Class
         private const int MAX_MANA = 50;
         private const int MAX_STAMINA = 200;
 
-        private int mHealth;
-        private int mMana;
-        private int mStamina;
+        private int mHealth = MAX_HEALTH;
+        private int mMana = MAX_MANA;
+        private int mStamina = MAX_STAMINA;
 
         public Warrior(string name)
         {
             Name = name;
-            mHealth = MAX_HEALTH;
-            mMana = MAX_MANA;
-            mStamina = MAX_STAMINA;
         }
 
         public string Name { get; private set; }

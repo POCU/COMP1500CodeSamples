@@ -15,6 +15,8 @@ namespace Class
 
             warrior.SwordStrike();
             warrior.UseWhirlwind();
+            warrior.UseWhirlwind();
+            warrior.UseWhirlwind();
             warrior.Rest();
 
             warrior.GetStatus();
@@ -23,21 +25,6 @@ namespace Class
             //warrior.mHealth = 5000;
 
             warrior.GetStatus();
-
-            Magician magician = new Magician("Gandalf");
-
-            magician.Introduce();
-            magician.GetStatus();
-
-            magician.UseFireball();
-            magician.UseIceSpear();
-            magician.UseThunder();
-            magician.Pound();
-
-            magician.GetStatus();
-
-            magician.Rest();
-            magician.GetStatus();
         }
     }
 }

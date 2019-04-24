@@ -8,7 +8,7 @@ namespace ExtensionMethod
         {
             StringBuilder sb = new StringBuilder(s.Length);
 
-            for (int i = s.Length; i >= 0; i--)
+            for (int i = s.Length - 1; i >= 0; i--)
             {
                 sb.Append(s[i]);
             }
@@ -35,7 +35,7 @@ namespace ExtensionMethod
                 sb.Append(s[i]);
             }
 
-            for (int i = end - 1; i < s.Length; i++)
+            for (int i = end; i < s.Length; i++)
             {
                 sb.Append(s[i]);
             }
