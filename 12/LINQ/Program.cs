@@ -10,11 +10,11 @@ namespace LINQ
         {
             List<Order> orders = getOrders();
 
-            Order petersFirstOrder = orders.Where(o => o.UserID == "Name").FirstOrDefault();
+            Order petersFirstOrder = orders.Where(o => o.UserID == "Peter").FirstOrDefault();
 
             Console.WriteLine($"Peter's first order: {petersFirstOrder.ID}");
 
-            petersFirstOrder = orders.FirstOrDefault(o => o.UserID == "Name");
+            petersFirstOrder = orders.FirstOrDefault(o => o.UserID == "Peter");
 
             Console.WriteLine($"Peter's first order: {petersFirstOrder.ID}");
 
@@ -29,9 +29,9 @@ namespace LINQ
 
             printOrderItems(petersOrderItems);
 
-            List<OrderItem> orderedByIdDesc = petersOrderItems.OrderByDescending(o => o.ID).ToList();
+            List<OrderItem> petersOrderItemsorderedByIdDesc = petersOrderItems.OrderByDescending(o => o.ID).ToList();
 
-            printOrderItems(orderedByIdDesc);
+            printOrderItems(petersOrderItemsorderedByIdDesc);
 
             List<OrderItem> orderedByPrice = petersOrderItems.OrderBy(o => o.Price).ToList();
 
@@ -164,11 +164,11 @@ namespace LINQ
         private static void printOrderItems(List<OrderItem> orderItems)
         {
             Console.WriteLine("----------------------------------");
-            Console.WriteLine("{0,-11} {1,-11} {2, -11} {3, -11}", "ID", "Name", "Price", "Quantity");
+            Console.WriteLine("{0,-10} {1,-25} {2, -10} {3, -10}", "ID", "Name", "Price", "Quantity");
 
             foreach (OrderItem oi in orderItems)
             {
-                Console.WriteLine("{0,-11} {1,-11} {2, -11} {3, -11}", oi.ID, oi.Name, oi.Price, oi.Quantity);
+                Console.WriteLine("{0,-10} {1,-25} {2, -10} {3, -10}", oi.ID, oi.Name, oi.Price, oi.Quantity);
             }
             Console.WriteLine("----------------------------------");
         }

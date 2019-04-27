@@ -18,11 +18,11 @@ namespace ValueTypeVsReferenceType
 
             Console.WriteLine(string.Join(", ", nums));
 
-            Vector foo = new Vector(0, 0);
+            Vector vector = new Vector(0, 0);
 
-            Increment(foo);
+            Increment(vector);
 
-            Console.WriteLine($"{foo.X} {foo.Y}");
+            Console.WriteLine($"{vector.X} {vector.Y}");
         }
 
         public static void Increment(int num)
@@ -38,10 +38,10 @@ namespace ValueTypeVsReferenceType
             }
         }
 
-        public static void Increment (Vector foo)
+        public static void Increment (Vector vector)
         {
-            foo.X++;
-            foo.Y++;
+            vector.X++;
+            vector.Y++;
         }
     }
 }

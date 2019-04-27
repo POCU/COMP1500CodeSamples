@@ -21,7 +21,7 @@ namespace Nullable
             }
             else
             {
-                Console.WriteLine($"foo1: {foo1}");
+                Console.WriteLine($"foo1: {foo1.Number}");
             }
 
             Foo foo2 = First(foos, 4);
@@ -32,7 +32,7 @@ namespace Nullable
             }
             else
             {
-                Console.WriteLine($"foo2: {foo2}");
+                Console.WriteLine($"foo2: {foo2.Number}");
             }
 
             Bar[] bars = new Bar[]
@@ -51,7 +51,7 @@ namespace Nullable
             }
             else
             {
-                Console.WriteLine($"bar2: {bar2}");
+                Console.WriteLine($"bar2: {bar2.Value.Number}");
             }
 
             Bar? bar3 = First(bars, 4);
@@ -62,7 +62,7 @@ namespace Nullable
             }
             else
             {
-                Console.WriteLine($"bar3: {bar3}");
+                Console.WriteLine($"bar3: {bar3.Value.Number}");
             }
         }
 
