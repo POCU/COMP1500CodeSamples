@@ -16,6 +16,11 @@ namespace TryCatchFinally
                 string integerString = Console.ReadLine();
                 int integer = int.Parse(integerString);
 
+                if (integer == 10)
+                {
+                    throw new IntegerIs10Exception("The input integer is 10!!");
+                }
+
                 double result = dividend / (double)integer;
 
                 Console.WriteLine($"Result: {result}");
@@ -23,6 +28,11 @@ namespace TryCatchFinally
             catch (ArgumentNullException e)
             {
                 Console.WriteLine("Argument is null");
+                Console.WriteLine(e);
+            }
+            catch (IntegerIs10Exception e)
+            {
+                Console.WriteLine("The divisor is 10. Oh noez!!");
                 Console.WriteLine(e);
             }
             catch (FormatException e)
@@ -43,7 +53,7 @@ namespace TryCatchFinally
             }
             finally
             {
-                Console.WriteLine("Finally always runs regardless of there was an exception or not");
+                Console.WriteLine("Finally clause always runs regardless of there was an exception or not");
             }
         }
     }
