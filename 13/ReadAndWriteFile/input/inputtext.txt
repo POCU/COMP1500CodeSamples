@@ -1,0 +1,5 @@
+Hello World!
+
+Welcome to COMP1500!
+
+This is the start of your programming journey!
