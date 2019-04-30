@@ -4,7 +4,7 @@ namespace TryCatchFinally
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Random random = new Random();
             int dividend = random.Next();
@@ -14,25 +14,20 @@ namespace TryCatchFinally
             {
                 Console.Write($"Input a divisor? ");
                 string integerString = Console.ReadLine();
-                int integer = int.Parse(integerString);
+                int divisor = int.Parse(integerString);
 
-                if (integer == 10)
+                if (divisor == 10)
                 {
                     throw new IntegerIs10Exception("The input integer is 10!!");
                 }
 
-                double result = dividend / (double)integer;
+                double result = dividend / (double)divisor;
 
                 Console.WriteLine($"Result: {result}");
             }
             catch (ArgumentNullException e)
             {
                 Console.WriteLine("Argument is null");
-                Console.WriteLine(e);
-            }
-            catch (IntegerIs10Exception e)
-            {
-                Console.WriteLine("The divisor is 10. Oh noez!!");
                 Console.WriteLine(e);
             }
             catch (FormatException e)
@@ -44,7 +39,11 @@ namespace TryCatchFinally
             {
                 Console.WriteLine("The number is too huge to be an integer");
                 Console.WriteLine(e);
-
+            }
+            catch (IntegerIs10Exception e)
+            {
+                Console.WriteLine("The divisor is 10. Oh noez!!");
+                Console.WriteLine(e);
             }
             catch (DivideByZeroException e)
             {

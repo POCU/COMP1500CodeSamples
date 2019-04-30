@@ -16,20 +16,22 @@ namespace UsingStatement
             setup();
 
             string allText = string.Empty;
-            List<string> allLines = new List<string>();
-            using (StreamReader reader = new StreamReader(File.Open(INPUT_FILE_FULL_PATH, FileMode.Open, FileAccess.Read)))
+            
+            using (StreamReader reader1 = new StreamReader(File.Open(INPUT_FILE_FULL_PATH, FileMode.Open, FileAccess.Read)))
             {
                 Console.WriteLine("----------------------------------");
-                allText = reader.ReadToEnd();
+                allText = reader1.ReadToEnd();
                 Console.WriteLine(allText);
                 Console.WriteLine("----------------------------------");
+            }
 
-                reader.BaseStream.Seek(0, SeekOrigin.Begin);
-
+            List<string> allLines = new List<string>();
+            using (StreamReader reader2 = new StreamReader(File.Open(INPUT_FILE_FULL_PATH, FileMode.Open, FileAccess.Read)))
+            {
                 allLines = new List<string>();
-                while (!reader.EndOfStream)
+                while (!reader2.EndOfStream)
                 {
-                    allLines.Add(reader.ReadLine());
+                    allLines.Add(reader2.ReadLine());
                 }
 
                 foreach (string line in allLines)
