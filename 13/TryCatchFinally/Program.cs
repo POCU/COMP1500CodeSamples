@@ -52,7 +52,7 @@ namespace TryCatchFinally
             }
             finally
             {
-                Console.WriteLine("Finally clause always runs regardless of there was an exception or not");
+                Console.WriteLine("Finally clause always runs regardless of whether or not there was an exception");
             }
         }
     }
