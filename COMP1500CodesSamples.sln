@@ -121,13 +121,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQ", "12\LINQ\LINQ.csproj
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "13", "13", "{6A91EBCE-DF22-4C3D-8723-30829F765579}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryCatchFinally", "13\TryCatchFinally\TryCatchFinally.csproj", "{7EC226EE-ED30-4A21-8565-13E49F742B1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TryCatchFinally", "13\TryCatchFinally\TryCatchFinally.csproj", "{7EC226EE-ED30-4A21-8565-13E49F742B1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadAndWriteFileUsingFileStream", "13\ReadAndWriteFileUsingFileStream\ReadAndWriteFileUsingFileStream.csproj", "{85CABE87-7668-47D4-A6E0-6FBFE12DFC5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadAndWriteFileUsingFileStream", "13\ReadAndWriteFileUsingFileStream\ReadAndWriteFileUsingFileStream.csproj", "{85CABE87-7668-47D4-A6E0-6FBFE12DFC5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadAndWriteFile", "13\ReadAndWriteFile\ReadAndWriteFile.csproj", "{C4FA2471-C9EC-43E6-B252-2F9C8FA99FC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadAndWriteFile", "13\ReadAndWriteFile\ReadAndWriteFile.csproj", "{C4FA2471-C9EC-43E6-B252-2F9C8FA99FC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingStatement", "13\UsingStatement\UsingStatement.csproj", "{E2B78947-B117-4979-B3E4-0333C02A7EA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingStatement", "13\UsingStatement\UsingStatement.csproj", "{E2B78947-B117-4979-B3E4-0333C02A7EA0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "14", "14", "{3541F5A7-3325-45B6-BC9F-A0289569C84D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CopyDirectory", "14\CopyDirectory\CopyDirectory.csproj", "{9AEC8F72-F10D-4F0C-8FC0-C902B214E22B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -339,6 +343,10 @@ Global
 		{E2B78947-B117-4979-B3E4-0333C02A7EA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2B78947-B117-4979-B3E4-0333C02A7EA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2B78947-B117-4979-B3E4-0333C02A7EA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AEC8F72-F10D-4F0C-8FC0-C902B214E22B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AEC8F72-F10D-4F0C-8FC0-C902B214E22B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AEC8F72-F10D-4F0C-8FC0-C902B214E22B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AEC8F72-F10D-4F0C-8FC0-C902B214E22B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -395,6 +403,7 @@ Global
 		{85CABE87-7668-47D4-A6E0-6FBFE12DFC5C} = {6A91EBCE-DF22-4C3D-8723-30829F765579}
 		{C4FA2471-C9EC-43E6-B252-2F9C8FA99FC3} = {6A91EBCE-DF22-4C3D-8723-30829F765579}
 		{E2B78947-B117-4979-B3E4-0333C02A7EA0} = {6A91EBCE-DF22-4C3D-8723-30829F765579}
+		{9AEC8F72-F10D-4F0C-8FC0-C902B214E22B} = {3541F5A7-3325-45B6-BC9F-A0289569C84D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {96723904-3ECA-4291-9A14-EEC341AC2BE4}
