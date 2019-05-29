@@ -41,7 +41,7 @@ namespace OrderOfExpressionEvaluation
             int result4 = num3 >= num1 ? num1 : num3 + num1 * num2;
             Console.WriteLine($"result4: {result4}");
 
-            int result5 = (num3 >= num1 ? num1 : num3) + num1 * num2;
+            int result5 = num3 >= num1 ? num1 : (num3 + num1 * num2);
             Console.WriteLine($"result5: {result5}");
         }
     }
