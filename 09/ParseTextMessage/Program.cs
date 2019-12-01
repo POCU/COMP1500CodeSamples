@@ -21,7 +21,7 @@ namespace ParseTextMessage
 
             int year = int.Parse(date[0]);
             int month = int.Parse(date[1]);
-            int day = int.Parse(date[0]);
+            int day = int.Parse(date[2]);
 
             // [ "13", "21", "54.456" ]
             string[] time = dateTimeString[2].Split(':');
