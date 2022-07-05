@@ -10,21 +10,20 @@ namespace LogicalExpressions
             int num2 = 1;
             int num3 = 4;
 
-            bool expression1 = !(num1 == num2 && num1 != num3);
-            bool expression2 = num1 != num2 || num1 == num3;
+            bool bExpression1 = !(num1 == num2 && num1 != num3);
+            bool bExpression2 = num1 != num2 || num1 == num3;
 
-            Console.WriteLine($"expression1: {expression1}");
-            Console.WriteLine($"expression2: {expression2}");
+            Console.WriteLine($"expression1: {bExpression1}");
+            Console.WriteLine($"expression2: {bExpression2}");
 
-            bool expression3 = num1 > num2 || num1 == num3 || ++num1 > num2;
-            Console.WriteLine($"expression3: {expression3}");
+            bool bExpression3 = num1 > num2 || num1 == num3 || ++num1 > num2;
+            Console.WriteLine($"expression3: {bExpression3}");
 
-            bool expression4 = num3 >= num2 || num1-- == num2;
-            Console.WriteLine($"expression4: {expression4}");
+            bool bExpression4 = num3 >= num2 || num1-- == num2;
+            Console.WriteLine($"expression4: {bExpression4}");
 
-            bool expression5 = num3 == num1 && --num2 > num1;
-            Console.WriteLine($"expression5: {expression5}");
-
+            bool bExpression5 = num3 == num1 && --num2 > num1;
+            Console.WriteLine($"expression5: {bExpression5}");
         }
     }
 }
