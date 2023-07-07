@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Calculator
 {
@@ -8,7 +8,7 @@ namespace Calculator
         {
             int num1 = 10;
             int num2 = 11;
-
+            
             int result1 = num1 + num2;
             int result2 = num1 - num2;
 
@@ -16,19 +16,19 @@ namespace Calculator
             Console.WriteLine("result2: " + result2);
 
             uint result3 = (uint)num1 - (uint)num2;
-
+            
             Console.WriteLine("result3: " + result3);
 
             int num3 = int.MaxValue;
             int result4 = num3 + 1;
 
             Console.WriteLine("result4: " + result4);
-
+            
             float num4 = 2.3f;
 
             float result5 = num1 + num4;
             float result6 = num4 - num1;
-
+            
             Console.WriteLine("result5: " + result5);
             Console.WriteLine("result6: " + result6);
 
