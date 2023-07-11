@@ -1,4 +1,4 @@
-﻿namespace Nullable
+namespace Nullable
 {
     public struct Bar
     {

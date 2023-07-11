@@ -1,4 +1,4 @@
-﻿namespace Struct
+namespace Struct
 {
     public struct CartItem
     {
