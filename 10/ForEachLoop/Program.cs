@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 namespace ForEachLoop
@@ -18,7 +18,7 @@ namespace ForEachLoop
             }
 
             int sum = 0;
-            
+
             foreach(int i in list)
             {
                 sum += i;

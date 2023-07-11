@@ -1,4 +1,4 @@
-﻿namespace ValueTypeVsReferenceType
+namespace ValueTypeVsReferenceType
 {
     public class Vector
     {
