@@ -21,7 +21,7 @@ namespace TryCatchFinally
                     throw new IntegerIs10Exception("The input integer is 10!!");
                 }
 
-                double result = dividend / (double)divisor;
+                int result = dividend / divisor;
 
                 Console.WriteLine($"Result: {result}");
             }
