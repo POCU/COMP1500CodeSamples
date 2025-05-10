@@ -23,7 +23,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "03\Calculator
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IncrementAndDecrementOperators", "03\IncrementAndDecrementOperators\IncrementAndDecrementOperators.csproj", "{C43A79F9-8FD2-45C4-8CDA-79C63502DABD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitwiseMultiplicationAndDividation", "03\BitwiseMultiplicationAndDividation\BitwiseMultiplicationAndDividation.csproj", "{FB781ACC-E8DF-4AA7-AC04-1977D81D9EE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitwiseMultiplicationAndDivision", "03\BitwiseMultiplicationAndDivision\BitwiseMultiplicationAndDivision.csproj", "{FB781ACC-E8DF-4AA7-AC04-1977D81D9EE3}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitFlag", "03\BitFlag\BitFlag.csproj", "{90C55505-62FC-432C-AFE7-284CDE7CCFF0}"
 EndProject
