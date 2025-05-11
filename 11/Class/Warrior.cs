@@ -12,11 +12,6 @@ namespace Class
         private int mMana = MAX_MANA;
         private int mStamina = MAX_STAMINA;
 
-        public Warrior(string name)
-        {
-            Name = name;
-        }
-
         public string Name { get; private set; }
 
         public int Health
@@ -83,6 +78,11 @@ namespace Class
                     mStamina = MAX_STAMINA;
                 }
             }
+        }
+
+        public Warrior(string name)
+        {
+            Name = name;
         }
 
         public void Introduce()
