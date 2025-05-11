@@ -4,12 +4,12 @@ namespace PartialClass
 {
     public partial class Robot
     {
+        public string Name { get; private set; }
+
         public Robot(string name)
         {
             Name = name;
         }
-
-        public string Name { get; private set; }
 
         public void ShootLaserBeam()
         {
