@@ -28,7 +28,6 @@ namespace UsingStatement
             List<string> allLines = new List<string>();
             using (StreamReader reader2 = new StreamReader(File.Open(INPUT_FILE_FULL_PATH, FileMode.Open, FileAccess.Read)))
             {
-                allLines = new List<string>();
                 while (!reader2.EndOfStream)
                 {
                     allLines.Add(reader2.ReadLine());
